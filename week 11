@@ -28,15 +28,7 @@ try:
         print("Error: Please enter a valid age.")
 except:
     print("Error: Please enter a valid age.")
-OUTOUT:
-	Input	Expected	Got	
-	twenty	Error: Please enter a valid age.	Error: Please enter a valid age.	
-	25	You are 25 years old.	You are 25 years old.	
-	-1	Error: Please enter a valid age.	Error: Please enter a valid age.	
-	150	You are 150 years old.	You are 150 years old.	
-		Error: Please enter a valid age.	Error: Please enter a valid age.	
-Passed all tests!  
-Correct
+
 
 
 
@@ -65,13 +57,6 @@ try:
         print("Error: Please enter a valid age.")
 except:
     print("Error: Please enter a valid age.")
-OUTPUT:
-	Input	Expected	Got	
-	25	You are 25 years old.	You are 25 years old.	
-	rec	Error: Please enter a valid age.	Error: Please enter a valid age.	
-	!@#	Error: Please enter a valid age.	Error: Please enter a valid age.	
-Passed all tests!  
-Correct
 
 
 3.
@@ -102,14 +87,6 @@ def main():
 
 
 if __name__ == "__main__":
-OUTPUT:
-	Input	Expected	Got	
-	1	Valid input.	Valid input.	
-	100	Valid input.	Valid input.	
-	101	Error: Number out of allowed range	Error: Number out of allowed range	
-Passed all tests!  
-Correct
-Marks for this submission: 1.00/1.00.
 
 
 
@@ -148,17 +125,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-OUTPUT:
 
-	Input	Expected	Got	
-	10
-2	5.0	5.0	
-	10
-0	Error: Cannot divide or modulo by zero.	Error: Cannot divide or modulo by zero.	
-	ten
-5	Error: Non-numeric input provided.	Error: Non-numeric input provided.	
-Passed all tests!  
-Correct
 
 
 
@@ -182,9 +149,3 @@ try:
         print("The square root of",a,"is {:.2f}".format(a**0.5))
 except:
     print("Error: could not convert string to float")
-OUTPUT:
-	Input	Expected	Got	
-	16	The square root of 16.0 is 4.00	The square root of 16.0 is 4.00	
-	0	The square root of 0.0 is 0.00	The square root of 0.0 is 0.00	
-	-4	Error: Cannot calculate the square root of a negative number.	Error: Cannot calculate the square root of a negative number.	
-Passed all tests!  
