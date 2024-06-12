@@ -47,20 +47,7 @@ k = int(input())
 
 # Calling function and printing the result
 print(count_pairs_)
-OUTPUT:
 
-	Input	Expected	Got	
-	4
-1 2 3 4
-1	3	3	
-	5
-1 3 1 5 4
-0	1	1	
-	4
-1 2 2 1
-1	4	4	
-Passed all tests!  
-Correct
 
 
 2.
@@ -82,15 +69,6 @@ def is_power_of_four(n):
 # Test the function
 n = int(input())
 print(is_power_of_four(n))
-OUTPUT:
-	Input	Expected	Got	
-	16	True	True	
-	5	False	False	
-	1	True	True	
-	-1	False	False	
-Passed all tests!  
-Correct
-
 
 
 3. Background:
@@ -157,21 +135,7 @@ average_marks = calculate_average_marks(students)
 
 # Print average marks with two decimal places
 print("{:.2f}".format(average_marks))
-OUTPUT:
-	Input	Expected	Got	
-	3
-ID NAME MARKS CLASS
-101 John 78 Science
-102 Doe 85 Math
-103 Smith 90 History	84.33	84.33	
-	3
-MARKS CLASS NAME ID
-78 Science John 101
-85 Math Doe 102
-90 History Smith 103	84.33	84.33	
-Passed all tests!  
-Correct
-Marks for this submission: 1.00/1.00.
+
 
 
 
@@ -264,36 +228,6 @@ for _ in range(N):
 
 # Print total revenue
 print(transaction_manager.total_revenue)
-OUTPUT:
-	Input	Expected	Got	
-	10
-2 3 4 5 6 8 7 6 5 18
-6
-6 55
-6 45
-6 55
-4 40
-18 60
-10 50	200	200	
-	5
-5 5 5 5 5
-5
-5 10
-5 10
-5 10
-5 10
-5 10	50	50	
-	4
-4 4 6 6
-5
-4 25
-4 25
-6 30
-6 55
-6 55	135	135	
-Passed all tests!  
-Correct
-Marks for this submission: 1.00/1.00.
 
 
 
@@ -348,14 +282,5 @@ def categorize_books_sorted():
         print(f"{genre}: {', '.join(books[genre])}")
 
 categorize_books_sorted()
-OUTPUT:
-	Input	Expected	Got	
-	Introduction to Programming, Programming
-Advanced Calculus, Mathematics	Programming: Introduction to Programming
-Mathematics: Advanced Calculus	Programming: Introduction to Programming
-Mathematics: Advanced Calculus	
-	Fictional Reality, Fiction
-Another World, Fiction	Fiction: Fictional Reality, Another World	Fiction: Fictional Reality, Another World	
-Passed all tests!  
-Correct
+
 
